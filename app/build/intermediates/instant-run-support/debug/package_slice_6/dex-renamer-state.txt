@@ -1,4 +1,0 @@
-#Sat Mar 10 09:07:07 EST 2018
-base.0=/home/rorro/github/binaryRecognitionApp/app/build/intermediates/transforms/dexMerger/debug/6
-path.0=classes.dex
-renamed.0=classes.dex
