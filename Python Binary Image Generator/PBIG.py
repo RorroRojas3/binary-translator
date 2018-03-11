@@ -52,7 +52,7 @@ while(z < 30):
     total_width = (430)*9
     max_height = (430)*9
 
-    new_im = Image.new('RGB', (total_width, max_height))
+    new_im = Image.new('RGB', (total_width, max_height), (150, 155, 155, 0))
 
     Rand = randint(0, 8)
     imageOrder[Rand] = 1
