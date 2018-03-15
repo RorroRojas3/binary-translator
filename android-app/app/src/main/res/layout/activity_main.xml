@@ -5,13 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#000"
     tools:context="com.example.rorro.binaryimagerecognition.MainActivity">
+
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:layout_gravity="left"
+        android:layout_weight="1"
+        android:textColor="#fff"
         android:id="@+id/detected_objects"/>
 
     <ImageView
@@ -21,12 +25,16 @@
         android:rotation="90"
         android:id="@+id/preview"/>
 
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:gravity="center"
         android:text="TAKE PICTURE"
         android:onClick="takePicture"
+        android:background="#FFD300"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:textSize="30sp"
         android:id="@+id/pictureButton"/>
 
 </LinearLayout>
